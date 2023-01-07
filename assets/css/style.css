@@ -52,19 +52,12 @@ margin-bottom: 20px;
 
 /* Base */
 
-@font-face {
-	font-family: 'Poppins';
-	src: url(/assets/fonts/poppins.woff) format('woff');
-	src: url(/assets/fonts/poppins.woff2) format('woff2');
-}
-
-
 html, body { height: 100%; }
 
 
 
 body {
-	font:16px/1 'Poppins';
+	font:16px/1 'Helvetica';
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -78,7 +71,7 @@ h1 {
 }
 
 h2 {
-	font: italic 19px/1.3em 'Poppins';
+	font: italic 19px/1.3em 'Helvetica';
 	color: #bbb;
 }
 
@@ -116,7 +109,7 @@ h2 {
 	  font-weight: 300;
 	  color: #000;
 	  margin-top: 10px;
-	  font-family: 'Poppins';
+	  font-family: 'Helvetica';
 	  font-style: normal;
 
 }
@@ -308,10 +301,10 @@ hr {
 	background: #eee;
 }
 
-span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
+span.code { font-family:Helvetica; background-color:#EEE; font-size:14px; }
 
 pre	{
-	font-family:Menlo, Monaco, Courier;
+	font-family:Helvetica;
 	white-space:pre-wrap;
 	/*border: 1px solid #ddd;*/
 	padding:20px;
@@ -320,10 +313,9 @@ pre	{
 	overflow:auto;
 	border-radius: 3px;
 	background: #272b2d;
-	  font-family: 'Source Code Pro',Menlo,monospace;
-	  font-size: 13px;
-	  line-height: 1.5em;
-	  font-weight: 500;
+	font-size: 13px;
+	line-height: 1.5em;
+	font-weight: 500;
 	color: #d0d4d7;
 
 }
@@ -390,6 +382,8 @@ Post List
 
 h3.post-list-latest {
 	font-weight: 700;
+	color:#cc3300;
+	padding-bottom: 5px;
 }
 
 #post-list,#archive-list {

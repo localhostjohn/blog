@@ -1,6 +1,6 @@
-name: Localhost John.
+name: Localhost John | Personal Blog
 description: I'm John Weekes a UK based dev working for a public sector organisation.
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "Writing Code For A Living"
 
 aboutPage: false
 
@@ -9,15 +9,15 @@ highlighter: rouge
 
 plugins: [jekyll-paginate]
 paginate: 20
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://www.localhostjohn.me'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
-disqus_shortname: 'your-disqus-shortname'
+#disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'LocalhostJohn'
-authorTwitter:  'localhostjohn'
+##url:            'http://your-blog-url.example.com'
+##author:         'LocalhostJohn'
+# authorTwitter:  'localhostjohn'
 
 permalink:       /:year/:title/
 

@@ -15,5 +15,5 @@ Travis CI: A cloud-based CI/CD platform that is popular with open-source project
 CircleCI: Another cloud-based CI/CD platform that supports a wide range of languages and technologies, including JavaScript.
 Other options to consider include GitLab CI, AWS CodePipeline, and Azure DevOps.
 
-It's worth noting that CI/CD pipelines are not limited to a specific programming language and can be implemented in any language. The choice of tools and approaches will depend on the specific needs and constraints of your project.S
+It's worth noting that CI/CD pipelines are not limited to a specific programming language and can be implemented in any language. The choice of tools and approaches will depend on the specific needs and constraints of your project.
 
